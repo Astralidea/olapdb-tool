@@ -1,6 +1,6 @@
 Doris Tools
 
-A set of Tools For Doris
+A set of tools for Doris
 
 dorisdump - dump doris table structure
 
