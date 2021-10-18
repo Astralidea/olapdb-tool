@@ -1,7 +1,7 @@
 import argparse
 import pymysql
 
-parser = argparse.ArgumentParser(description="dorisdump  Ver 0.1", add_help=False)
+parser = argparse.ArgumentParser(description="olapdump  Ver 0.1", add_help=False)
 parser.add_argument('--host', '-h', help='Connect to host.')
 parser.add_argument('--port', '-P', type=int, help='Port number to use for connection.')
 parser.add_argument('--user', '-u', help='User for login.')

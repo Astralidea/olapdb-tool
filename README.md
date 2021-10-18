@@ -1,8 +1,8 @@
-Doris Tools
+OlapDb Tools
 
-A set of Tools For Doris
+A set of Tools For OlapDb
 
-dorisdump - dump doris table structure
+olapdump - dump mysql/starrocks/doris table structure
 
 # Setup
 
@@ -16,8 +16,8 @@ pip install pymysql
 
 # Usage
 
-python dorisdump.py [--host HOST] [--port PORT] [--user USER]
+python olapdump.py [--host HOST] [--port PORT] [--user USER]
                     [--password PASSWORD] [--database DATABASE]
 
 example:
-python dorisdump.py -h 127.0.0.1 -P 9030 -u root -d dtest > dump.sql
+python olapdump.py -h 127.0.0.1 -P 9030 -u root -d dtest > dump.sql
