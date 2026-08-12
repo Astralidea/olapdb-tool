@@ -1,3 +1,5 @@
+
+
 OlapDb Tools
 
 A set of Tools For OlapDb
@@ -16,8 +18,8 @@ pip install pymysql
 
 # Usage
 
-python olapdump.py [--host HOST] [--port PORT] [--user USER]
-                    [--password PASSWORD] [--database DATABASE]
+python olapdump.py [-h HOST] [-P PORT] [-u USER]
+                    [-p PASSWORD] [-d DATABASE]
 
 example:
 python olapdump.py -h 127.0.0.1 -P 9030 -u root -d dtest > dump.sql
